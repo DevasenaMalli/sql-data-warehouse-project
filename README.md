@@ -34,3 +34,40 @@ Devlop SQL- based analytics to deliver detailed insights into:
 These insights empower stakeholders with key bussiness metrics, enabling strategic decision-making.
 
 ---
+
+## Problem
+
+The source CRM and ERP data is messy:
+- Duplicate customer records
+- Inconsistent values (M/F, S/M)
+- Missing and null values
+- No proper relationship between entities
+
+## Solution
+
+This project cleans and transforms the data into a structured data warehouse using:
+- Data cleansing (TRIM, CASE, NULL handling)
+- Deduplication (ROW_NUMBER)
+- Standardization of fields
+- Bronze → Silver → Gold architecture
+
+- ## Before vs After
+
+Before:
+- Duplicate records
+- Inconsistent data formats
+- Unstructured data
+
+After:
+- Clean, standardized dataset
+- One record per entity
+- Structured for reporting and analytics
+
+
+## Skills Demonstrated
+
+- SQL (T-SQL)
+- Data Cleaning & Transformation
+- Data Modeling
+- ETL Pipeline Design
+- Data Quality Handling
